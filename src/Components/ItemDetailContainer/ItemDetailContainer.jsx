@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import {products} from '../../products'
+import {products} from '../../mock/products'
 import { ItemDetail } from '../ItemDetail/ItemDetail'
 import style from '../ItemDetailContainer/ItemDetailContainer.module.css'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Item} from '../Item/Item'
-import products from '../../products'
+import products from '../../mock/products'
 import style from './ItemList.module.css'
 
 export const ItemList = ({product}) => {

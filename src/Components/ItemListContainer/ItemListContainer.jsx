@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import {products} from '../../products';
+import {products} from '../../mock/products';
 import { ItemList } from '../ItemList/ItemList';
 
 export const ItemListContainer = () => {
